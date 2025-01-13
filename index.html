@@ -1,0 +1,112 @@
+<!-- 
+Name: Muhamad Luqman Hakim Bin Muhamad 
+Matrix No.: 2024938691
+Group: RCDCS251 4B
+Web URL: https://luqsgb.github.io/itt588-assignment2/index.html
+-->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Assignment 2</title>
+</head>
+<body>
+    <!-- Header -->
+    <header class="navbar">
+        <a href="#default" class="nav-logo">
+            <img src="./img/uitm.png" alt="Logo">
+        </a>
+        <nav class="nav-menu">
+            <a href="#about">About</a>
+            <a href="#info">Info</a>
+            <a href="#contact">Contact</a>
+        </nav>
+    </header>
+
+    <!-- Main Content -->
+    <div class="content">
+
+        <!-- About -->
+        <div class="content-about" id="about">
+            <span>
+                <h1>About Harum Manis</h1>
+                <p>Mangga harumanis atau nama saintifiknya 'Mangifera indica Linn' adalah sinonim dengan negeri Perlis.
+                    Mangga ini mendapat namanya daripada aromanya yang harum dan rasanya yang manis. Mangga ini
+                    merupakan baka mangga terbaik di Malaysia. Mangga harumanis hanya berbuah sekali sahaja setahun
+                    antara bulan April hingga Jun. Faktor cuaca panas dan kemarau di negeri Perlis pada bulan Januari sehingga
+                    Mac sesuai untuk mangga harumanis berbunga. Pekan Chuping di Perlis pernah merekodkan suhu tertinggi
+                    dan terpanas di Malaysia iaitu 40.1 C. Maka tidak hairanlah mangga harumanis lebih sesuai ditanam di
+                    negeri Perlis.
+                </p>
+            </span>
+            <img src="./img/harumanis.png" alt="Harumanis">
+        </div>
+
+        <!-- Info -->
+        <div class="info-title" id="info">Info Harum Manis</div>
+        <div class="content-info">
+            
+            <ul class="cards">
+                <li class="info-card">
+                    <div class="card">
+                        <div class="card_image" style="background-image: url(./img/info-1.jpg);"></div>
+                        <div class="card_content">
+                            <h1 class="card_title">Manfaat Pemakanan</h1>
+                            <p class="card_text">Mangga Harum Manis kaya dengan vitamin A dan C, yang membantu meningkatkan sistem imun, memperbaiki kesihatan kulit, dan menyokong penglihatan yang baik. Ia juga mengandungi serat yang membantu dalam pencernaan.</p>
+                        </div>
+                    </div>
+                </li>
+                <li class="info-card">
+                    <div class="card">
+                        <div class="card_image" style="background-image: url(./img/info-2.jpg);"></div>
+                        <div class="card_content">
+                            <h1 class="card_title">Eksport dan Permintaan Pasaran</h1>
+                            <p class="card_text">Disebabkan rasanya yang unik dan ketersediaannya yang terhad, mangga Harum Manis sangat diminati di pasaran tempatan dan antarabangsa, terutamanya di Jepun, Indonesia, dan Singapura.</p>
+                        </div>
+                    </div>
+                </li>
+                <li class="info-card">
+                    <div class="card">
+                        <div class="card_image" style="background-image: url(./img/info-3.jpg);"></div>
+                        <div class="card_content">
+                            <h1 class="card_title">Proses Penanaman</h1>
+                            <p class="card_text">Proses penanaman Harum Manis memerlukan pengairan, pemangkasan, dan pembajaan yang teliti untuk memastikan kualiti buah yang tinggi. Petani sering menggunakan baja organik untuk mengekalkan kemanisan semula jadi mangga ini.</p>
+                        </div>
+                    </div>
+                </li>
+            </ul>
+
+        </div>
+
+        <!-- Contact Section -->
+        <div class="content-contact" id="contact">
+            <h1>Contact Us</h1>
+            <form id="contactForm">
+                <label for="name">Name:</label>
+                <input type="text" id="name" name="name" required>
+
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" required>
+
+                <label for="message">Message:</label>
+                <textarea id="message" name="message" rows="4" required></textarea>
+
+                <button type="submit">Submit</button>
+            </form>
+            <p id="formMessage"></p>
+        </div>
+
+    </div>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <p><span id="currentDate"></span></p>
+        <p>©Luqman Hakim. All rights reserved.</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
